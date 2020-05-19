@@ -16,8 +16,8 @@ public class Converter {
         boolean passed = expected == euro;
         System.out.println("140 rubles are " + euro + " euro. Test result : " + passed);
 
-        double expectedD = 2.3333332538604736;
-        double dollar = Converter.rubleToDollar(140);
+        double expectedD = 2;
+        double dollar = Converter.rubleToDollar(120);
         boolean passedD = expected == dollar;
         System.out.println("140 rubles are " + dollar + " dollar. Test result : " + passedD);
     }
