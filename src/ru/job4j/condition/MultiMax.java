@@ -9,6 +9,5 @@ public class MultiMax {
         int rsl;
         rsl = rsl1 >= rsl2 ? rsl1 : rsl2;
         return rsl;
-
     }
 }
