@@ -26,4 +26,11 @@ public class FitnessTest {
         int month = Fitness.calc(50, 90);
         Assert.assertEquals(month, expected);
     }
+
+    @Test
+    public void whenIvanLessByFewNik1() {
+        int expected = 1;
+        int month = Fitness.calc(90, 90);
+        Assert.assertEquals(month, expected);
+    }
 }
