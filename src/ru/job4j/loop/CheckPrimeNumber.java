@@ -14,8 +14,10 @@ public class CheckPrimeNumber {
             }
             num++;
         }
+
         if (number <= 1) {
             p = false;
+
         }
         return p; // выводим результат
     }
