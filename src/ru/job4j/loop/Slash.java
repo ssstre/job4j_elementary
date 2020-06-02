@@ -2,15 +2,15 @@ package ru.job4j.loop;
 
 public class Slash {
     public static void draw(int size) {
-        int s = 2;
         for (int row = 0; row < size; row++) {
             for (int cell = 0; cell < size; cell++) {
-              if (size > 3) {
-                  s = 4;
-              }
+              if (size == 3) {
+                  boolean right = row + cell == 4;
+              } else { boolean right = row + cell == 2;
+                }
                 if (row == cell) {
                     System.out.print("0");
-                } else if (row + cell == s) {
+                } else if (right) {
                     System.out.print("0");
                 } else {
                     System.out.print(" ");
