@@ -14,7 +14,6 @@ public class FindLoopTest {
        int value = 5;
        int expected = 0;
        int result = FindLoop.indexOf(input, value);
-
        Assert.assertEquals(result, expected);
    }
     public void indexOf1() {
