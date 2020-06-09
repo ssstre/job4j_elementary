@@ -39,4 +39,16 @@ public class MatrixCheckTest {
         char[] expect = {'X', 'X', 'X'};
         Assert.assertArrayEquals(result, expect);
     }
+//    @Test
+//    public void whenDataHMonoByTrueThenTrue() {
+//        char[][] input = {
+//                {' ', ' ', ' ', ' ', ' '},
+//                {' ', ' ', ' ', ' ', ' '},
+//                {'X', 'X', 'X', 'X', 'X'},
+//                {' ', ' ', 'X', ' ', ' '},
+//                {' ', ' ', 'X', ' ', ' '},
+//        };
+//        boolean result = MatrixCheck.isWin(input);
+//        Assert.assertTrue(result);
+//    }
 }
