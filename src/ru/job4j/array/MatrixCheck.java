@@ -29,22 +29,16 @@ public class MatrixCheck {
         }
         return rsl;
     }
-//   public static boolean isWin(char[][] board) {
-//       boolean result = false;
-//       for (int i = 0; i < board.length - 1; i++) {
-//           int j = i + 1;
-//           if (MatrixCheck.monoHorizontal(board, i) != false) {
-//               result = true;
-//               break;
-//           }
-//       }
-// //  for ( .. ) {
-// //      if ( .. ) {
-// //          result = true;
-// //          break;
-// //      }
-// //  }
-//        return result;
-//    }
+   public static boolean isWin(char[][] board) {
+       boolean result = false;
+       for (int i = 0; i < board.length - 1; i++) {
+           int j = i + 1;
+           if (MatrixCheck.monoHorizontal(board, i) != false | MatrixCheck.monoVertical(board, i) != false) {
+               result = true;
+               break;
+           }
+       }
+        return result;
+    }
 
 }
