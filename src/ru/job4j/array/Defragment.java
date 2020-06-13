@@ -18,8 +18,6 @@ package ru.job4j.array;
                     }
                 }
             }
-           for (int index = 0; index < array.length; index++) {
-           System.out.print(array[index] + " ");   }
            return array;
         }
 
